@@ -2,10 +2,10 @@
   "name": "@nodecg/demo",
   "version": "0.0.0-development",
   "description": "A demo of NodeCG that can be set up in one click.",
-  "main": "./nodecg/index.js",
+  "main": "nodecg/index.js",
   "scripts": {
-    "install": "./setup.sh",
-    "start": "./nodecg/index.js"
+    "install": "bash setup.sh",
+    "start": "node nodecg/index.js"
   },
   "repository": {
     "type": "git",
