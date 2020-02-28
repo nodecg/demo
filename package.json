@@ -1,0 +1,26 @@
+{
+  "name": "@nodecg/demo",
+  "version": "0.0.0-development",
+  "description": "A demo of NodeCG that can be set up in one click.",
+  "main": "./nodecg/index.js",
+  "scripts": {
+    "install": "./setup.sh",
+    "start": "./nodecg/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodecg/demo.git"
+  },
+  "keywords": [
+    "nodecg",
+    "demo",
+    "example"
+  ],
+  "author": "Alex Van Camp <email@alexvan.camp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodecg/demo/issues"
+  },
+  "homepage": "https://github.com/nodecg/demo#readme",
+  "private": true
+}
