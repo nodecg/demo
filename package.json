@@ -5,6 +5,7 @@
   "main": "nodecg/index.js",
   "scripts": {
     "install": "bash setup.sh",
+    "prestart": "node ./fix-config.js",
     "start": "node nodecg/index.js"
   },
   "repository": {
